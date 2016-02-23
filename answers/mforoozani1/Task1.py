@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-created by me for task1
+created by me for task1, program that proves the phrase is a palindrome
 """
 
 
@@ -9,6 +9,9 @@ import argparse
 
 
 def palindrome(phrase):
+    """
+    change the pharase to lower case and then reverse it
+    """
     phrase = phrase.casefold()
     rev_phrase = (phrase)[::-1]
 
